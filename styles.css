@@ -60,7 +60,7 @@ header {
   background:
 
               linear-gradient(0deg, #f7f5f0, transparent 50%),
-  url('images/rsz_1londonpan.jpg') no-repeat top center ;
+  url('images/londonpan.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -124,6 +124,10 @@ ul.skills {
 
 .skills li:nth-child(odd) {
   background: #0399ff;
+}
+
+.skills li:hover {
+  transform: scale(1.2) rotate(0deg);
 }
 
 footer {
